@@ -1,32 +1,24 @@
-Drop-down with the list of the states in US
-===========================================
+# Drop-down with the list of the states in US
 
-  
-
-
-![](screenshot.png)
+![](./screenshot.png)
 
 This is a small app built as an exercise for the purpose of Geoblink
 recruitment. The app is built with React.
 
  
 
-How to install?
----------------
+## How to install?
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 npm install
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+```
  
 
-How to run the app?
--------------------
+## How to run the app?
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 npm start
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+```
   
 The above instruction is combined of two instructions, run concurrently: running
 a server which served a JSON with the list of options and the app itself.
@@ -34,31 +26,22 @@ a server which served a JSON with the list of options and the app itself.
   
 The server can be also run separately:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 node data/server.js
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
- 
-
-Why React?
-----------
+## Why React?
 
 I considered all the three major JS Frameworks for this task: Angular, Vue and
 React. I decided to use the last one because it has the following features:
 
--   it is well-established,
-
--   has big and vibrant community,
-
--   is easy to learn,
-
--   is well-documented,
-
--   has a good CLI that helps to establish a project in no time,
-
--   has great debugging support and helpful browser plugins,
-
--   is easy to test.
+*  it is well-established,
+*   has big and vibrant community,
+*   is easy to learn,
+*   is well-documented,
+*   has a good CLI that helps to establish a project in no time,
+*   has great debugging support and helpful browser plugins,
+*   is easy to test.
 
 Especially I believe that a good learning curve and reliability are the most
 important features for a startup like yours.
