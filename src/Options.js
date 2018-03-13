@@ -17,7 +17,7 @@ class Options {
             } else {
                   let options = [];
                   Object.keys(this.options).map(k => {
-                        options.push({value: k, label: this.options[k]})
+                        return options.push({value: k, label: this.options[k]})
                   })
 
                   return options;

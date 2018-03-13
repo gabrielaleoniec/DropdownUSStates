@@ -9,31 +9,26 @@ const options = new Options();
 
 class App extends Component {
   state = {
-    selectedOption: '',
+    selectedOption: [],
     options: []
   }
 
   handleChange = (selectedOption) => {
     this.setState({ selectedOption });
-    console.log(`Selected: ${selectedOption.label}`, selectedOption, selectedOption[0]['label']);
   }
 
-  componentDidMount(){
-    options.get('http://localhost:3000/states')
+  componentWillMount(){
+    options.get('http://localhost:3001/states')
       .then(
         options => {
-          console.log(options);
           this.setState({options: options})
-          console.log(this.state)
         }
       )
-      
   }
-
 
   render() {
     const { selectedOption } = this.state;
-    const value = selectedOption && selectedOption.value;
+    const value = selectedOption;
 
     return (
       <div className="App">
