@@ -1,6 +1,6 @@
 # Drop-down with the list of the states in US
 
-![](./screenshot.png)
+->![Screenshot of a dropdown](./screenshot.png)<-
 
 This is a small app built as an exercise for the purpose of Geoblink
 recruitment. The app is built with React.

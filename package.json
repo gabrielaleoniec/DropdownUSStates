@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "concurrently": "^3.5.1",
     "get-port": "^3.2.0",
+    "json-server": "^0.12.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
@@ -16,9 +17,10 @@
     "start": "concurrently \"node data/server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
   },
   "devDependencies": {
-    "json-server": "^0.12.1"
+    "cypress": "^2.1.0"
   }
 }
