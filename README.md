@@ -3,9 +3,7 @@
 ![Screenshot of a dropdown](./screenshot.png)
 
 This is a small app built as an exercise for the purpose of Geoblink
-recruitment. The app is built with React.
-
- 
+recruitment. The app is built with React and react-select librabry by Jed Watson: https://github.com/JedWatson/react-select.  
 
 ## How to install?
 
