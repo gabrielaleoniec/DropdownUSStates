@@ -29,6 +29,12 @@ The server can be also run separately:
 ```
 node data/server.js
 ```
+## How to test the app?
+```
+npm run cypress
+```
+
+I decided to use Cypress as an end-to-end testing tool, because it is simple, does not require any outern dependencies like Selenium. Its syntax reflects that of Mocha and Jest. Thanks to the usage of Chromium it allows to run the test and debug at the same time.
 
 ## Why React?
 
